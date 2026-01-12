@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoGame</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="panel">
+        <header>
+          <h1>AutoGame</h1>
+          <p>Bewege dich mit WASD oder den Pfeiltasten. Interagiere mit <strong>E</strong>.</p>
+        </header>
+        <canvas id="game" width="768" height="512" aria-label="Spielkarte"></canvas>
+        <div class="hud">
+          <div class="hud-item"><span class="label">Münzen</span> <span id="coins">0</span></div>
+          <div class="hud-item"><span class="label">Schalter</span> <span id="switch">Aus</span></div>
+          <div class="hud-item"><span class="label">Portal</span> <span id="portal">Inaktiv</span></div>
+        </div>
+      </section>
+      <aside class="panel log">
+        <h2>Signale</h2>
+        <ul id="log"></ul>
+        <div class="legend">
+          <h3>Legende</h3>
+          <p>🪙 Münze · 🔆 Schalter · 🚪 Tor · 🌀 Portal · 💬 NPC · 📜 Schild</p>
+        </div>
+      </aside>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
