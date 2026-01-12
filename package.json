@@ -1,0 +1,25 @@
+{
+  "name": "auto-pixi8-signals-ts",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "howler": "^2.2.4",
+    "pixi.js": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  },
+  "description": "TypeScript-Modularisierung der ursprünglichen HTML-Demo.",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
